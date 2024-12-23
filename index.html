@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星空 JetBrain 激活码生成器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/UI.js" defer></script>
+</head>
+<body>
+<h1>星空 JetBrain 激活码生成器</h1>
+<form id="userForm">
+    <label for="name">姓名:</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <label for="user">用户名:</label>
+    <input type="text" id="user" name="user" required>
+    <br><br>
+
+    <label for="mail">邮箱:</label>
+    <input type="email" id="mail" name="mail" required>
+    <br><br>
+
+    <label for="time">时间:</label>
+    <input type="date" id="time" name="time" value="2100-01-01" required>
+    <br><br>
+
+    <button type="submit">提交</button>
+
+    <label for="output">许可证:</label>
+    <textarea id="output" name="output" rows="5" readonly></textarea>
+
+    <label for="hint">注意:</label>
+    <textarea id="hint" name="hint" rows="5" readonly>
+某些插件具有内置的时间检测机制。设置过长的过期时间可能会导致许可证被标记为异常。考虑将这些插件的到期时间调整为从今天起的两年（例如，RainbowBrackets 至 2026-01-01）。
+    </textarea>
+</form>
+</body>
+</html>

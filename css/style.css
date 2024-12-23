@@ -1,0 +1,71 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif; /* 设置字体 */
+    background-color: #f4f4f4; /* 背景颜色 */
+    margin: 0; /* 去掉默认边距 */
+    padding: 20px; /* 添加内边距 */
+}
+
+/* 标题样式 */
+h1 {
+    text-align: center; /* 居中对齐 */
+    color: #4A90E2; /* 字体颜色 */
+    font-size: 2.5em; /* 字体大小 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 字体阴影 */
+    margin-bottom: 20px; /* 下边距 */
+    font-family: 'Georgia', serif; /* 使用更优雅的字体 */
+}
+
+/* 表单样式 */
+form {
+    background-color: #fff; /* 表单背景颜色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    padding: 20px; /* 内边距 */
+    max-width: 400px; /* 最大宽度 */
+    margin: 0 auto; /* 居中 */
+}
+
+/* 标签样式 */
+label {
+    display: block; /* 块级元素 */
+    margin-bottom: 5px; /* 下边距 */
+    font-weight: bold; /* 加粗 */
+}
+
+/* 输入框样式 */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%; /* 宽度100% */
+    padding: 10px; /* 内边距 */
+    margin-bottom: 15px; /* 下边距 */
+    border: 1px solid #ccc; /* 边框 */
+    border-radius: 4px; /* 圆角 */
+    box-sizing: border-box; /* 包含内边距和边框 */
+}
+
+/* 文本框样式 */
+textarea {
+    height: 100px; /* 固定高度 */
+    resize: vertical; /* 允许垂直调整大小 */
+    overflow-y: auto; /* 允许垂直滚动 */
+}
+
+/* 按钮样式 */
+button {
+    background-color: #5cb85c; /* 按钮背景颜色 */
+    color: white; /* 字体颜色 */
+    border: none; /* 去掉边框 */
+    padding: 10px 15px; /* 内边距 */
+    border-radius: 4px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针 */
+    font-size: 16px; /* 字体大小 */
+    width: 100%; /* 宽度100% */
+    margin-bottom: 15px; /* 添加下边距以增加间隙 */
+}
+
+button:hover {
+    background-color: #4cae4c; /* 悬停时的背景颜色 */
+}
